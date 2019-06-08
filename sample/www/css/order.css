@@ -1,0 +1,86 @@
+.order h1 {
+    width: 95%;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid gray;
+}
+
+.order .container {
+    display: flex;
+}
+
+.order .left {
+    flex-basis: 65%;
+}
+
+.order .left_top {
+    width: 100%;
+    height: 120px;
+    margin-left: 20px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.order .left_bottom {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.order .left_bottom .item {
+    display: flex;
+    margin: 5px;
+}
+
+.order .left_bottom .item img {
+    width: 100px;
+}
+
+.order .left_bottom .item .detail table {
+    border-spacing: 8px;
+}
+
+.order .left_bottom .item .detail span {
+    color: red;
+}
+
+.order .right {
+    flex-basis: 25%;
+    height: 200px;
+    margin-left: 50px;
+    border: 1px solid gray;
+}
+
+.order .right .btn {
+    width: 80%;
+    height: 10px;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+.order .right .btn input {
+    width: 100%;
+    background: #FFCC00;
+}
+
+.order .right .payment {
+    width: 80%;
+    height: 35%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.order .right .payment span {
+    color: maroon;
+}
+
+.order .right .totalPayment {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}

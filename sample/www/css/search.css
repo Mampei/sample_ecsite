@@ -1,0 +1,54 @@
+.search .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.search .container .item {
+    flex-basis: 26%;
+    width: 33%;
+    height: 40%;
+    margin-top: 15px;
+    text-align: center;
+    color: #fff;
+    border-bottom: solid 1px gray;
+}
+
+.search .container .item a {
+    display: block;
+    color: #0066FF;
+    text-decoration: none;
+}
+
+.search .container .item a:hover {
+    color: #CC3333;
+    text-decoration: underline;
+}
+
+.pager {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.pager .container {
+    display: flex;
+    justify-content: center;
+}
+
+.search .pager a {
+    display: block;
+    color: blue;
+    text-decoration: none;
+}
+
+.search .pager a:link {
+    text-decoration: none;
+}
+
+.search .pager a:visited {
+    text-decoration: none;
+}
+
+.pager strong {
+    display: block;
+}

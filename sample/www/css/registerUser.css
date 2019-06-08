@@ -1,0 +1,40 @@
+.registerUser {
+    width: 25%;
+    height: 480px;
+    margin: 15px auto;
+    border: 2px solid #DDDDDD;
+}
+
+.registerUser .container {
+    width: 89%;
+    margin: 0 auto;
+}
+
+.registerUser h1 {
+    text-align: center;
+}
+
+.registerUser table {
+    font-size: 15px;
+}
+
+.registerUser .user_name {
+    width: 250px;
+}
+
+.registerUser .user_kana {
+    width: 250px;
+}
+
+.registerUser .mailaddress {
+    width: 250px;
+}
+
+.registerUser .password {
+    width: 250px;
+}
+
+.registerUser span {
+    font-size: 14px;
+    color: red;
+}

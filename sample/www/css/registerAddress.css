@@ -1,0 +1,62 @@
+.registerAddress {
+    width: 40%;
+    height: 600px;
+    margin: 15px auto;
+    border: 2px solid #DDDDDD;
+}
+
+.registerAddress_top h1 {
+    text-align: center;
+}
+
+.registerAddress_top p {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.registerAddress_top span {
+    color: blue;
+}
+
+.registerAddress_center {
+    width: 85%;
+    margin: 15px auto;
+    border: 2px solid red
+}
+
+.registerAddress_center p {
+    margin: 10px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.registerAddress_center li {
+    margin: 5px auto;
+}
+
+.registerAddress_bottom {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.registerAddress_bottom .postal_code_former {
+    width: 15%;
+}
+
+.registerAddress_bottom .postal_code_latter {
+    width: 18%;
+}
+
+.registerAddress_bottom .xmpf{
+}
+
+.registerAddress_bottom .address {
+    width: 100%;
+    resize: none;
+}
+
+.registerAddress_bottom .phone_number {
+ 
+}

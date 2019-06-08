@@ -1,0 +1,15 @@
+.showAccount {
+    width: 30%;
+    height: 300px;
+    margin: 15px auto;
+    border: 1px solid #DDDDDD;   
+}
+
+.showAccount h2 {
+    text-align: center;
+}
+
+.showAccount .container {
+    width: 80%;
+    margin: 0 auto;
+}
